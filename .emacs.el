@@ -36,7 +36,6 @@
 (set-face-background 'region "#666")
 (set-face-foreground 'minibuffer-prompt "#33FFFF")
 (global-hl-line-mode)
-(set-face-background hl-line-face "#222")
 
 ;; IDO
 (setq ido-enable-flex-matching t)
