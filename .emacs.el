@@ -35,7 +35,6 @@
 (set-cursor-color "Red")
 (set-face-background 'region "#666")
 (set-face-foreground 'minibuffer-prompt "#33FFFF")
-(global-hl-line-mode)
 
 ;; IDO
 (setq ido-enable-flex-matching t)
