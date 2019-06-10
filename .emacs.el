@@ -33,7 +33,6 @@
 
 ;; COLORS
 (set-cursor-color "Red")
-(set-face-background 'region "#666")
 (set-face-foreground 'minibuffer-prompt "#33FFFF")
 
 ;; IDO
