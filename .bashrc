@@ -73,9 +73,12 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
+alias iptable='iptables -L -v -n --line-number'
+alias cd..='cd ..'
+alias cd.='cd ..'
+alias ..=' cd ..'
+alias l='ls -lh --group-directories-first --color'
+alias ll='ls -lh --group-directories-first --color'
 alias ne='emacs -nw'
 
 # Alias definitions.
