@@ -16,6 +16,10 @@ shopt -s histappend
 HISTSIZE=1000
 HISTFILESIZE=2000
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm                                                  
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion                
+
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
@@ -78,8 +82,24 @@ alias cd..='cd ..'
 alias cd.='cd ..'
 alias ..=' cd ..'
 alias l='ls -lh --group-directories-first --color'
-alias ll='ls -lh --group-directories-first --color'
+alias ll='ls -lah --group-directories-first --color'
 alias ne='emacs -nw'
+alias df='df -h'
+
+alias ga='git add'
+alias gp='git push'
+alias gl='git log'
+alias gs='git status'
+alias gd='git diff'
+alias gdc='git diff --cached'
+alias gm='git commit -m'
+alias gma='git commit -am'
+alias gb='git branch -a -v'
+alias gc='git checkout'
+alias gra='git remote add'
+alias grr='git remote rm'
+alias gpu='git pull'
+alias gcl='git clone'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
